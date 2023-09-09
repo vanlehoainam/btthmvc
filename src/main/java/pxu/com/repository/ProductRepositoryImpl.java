@@ -13,11 +13,11 @@ public class ProductRepositoryImpl implements ProductRepository {
 
 	static {
 		products = new HashMap<Integer, Product>();
-		products.put(1, new Product(1, "Iphone1", 101));
-		products.put(2, new Product(2, "Iphone2", 102));
-		products.put(3, new Product(3, "Iphone3", 103));
-		products.put(4, new Product(4, "Iphone4", 104));
-		products.put(5, new Product(5, "Iphone5", 105));
+		products.put(1, new Product(1, "Iphone1", 10999000));
+		products.put(2, new Product(2, "Iphone2", 10299000));
+		products.put(3, new Product(3, "Iphone3", 10399000));
+		products.put(4, new Product(4, "Iphone4", 10499000));
+		products.put(5, new Product(5, "Iphone5", 10599000));
 	}
 
 	@Override
